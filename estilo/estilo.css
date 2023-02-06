@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@1,300&display=swap');
+
+body{
+   margin: 0;
+   padding: 0; 
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 10px;
+}
+p {
+    width: 200px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.botao{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.btn:hover{
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+
+img{
+    box-shadow: 8px 3px 2px 3px black ;
+}
+
+main{
+   padding: 50px; 
+}
+
+input{
+    margin:100px;
+}
+
+#barra{
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0.1px;
+}
+
